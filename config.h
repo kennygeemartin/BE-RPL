@@ -1,0 +1,21 @@
+#ifndef CONFIG_H
+#define CONFIG_H
+
+#define QUEUE_SIZE 8
+#define MAC_RETRY_LIMIT 3
+
+#define TRICKLE_IMIN 12
+#define TRICKLE_IMAX 8000
+#define TRICKLE_K 10
+
+#define MIN_PARENTS 3
+#define MAX_PARENTS 5
+
+#define WEIGHT_ETX 0.45
+#define WEIGHT_ENERGY 0.25
+#define WEIGHT_QUEUE 0.15
+#define WEIGHT_STABILITY 0.15
+
+#define FAILURE_THRESHOLD 3
+
+#endif  
